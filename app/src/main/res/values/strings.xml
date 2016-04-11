@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DateTestingApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_month_value">Enter Month Value</string>
+    <string name="enter_year_value">Enter Year Value</string>
+    <string name="validate">validate</string>
+    <string name="clear">clear</string>
+</resources>
