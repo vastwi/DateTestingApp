@@ -54,7 +54,11 @@ public class MainActivity extends ListActivity {
             month = Integer.parseInt(((EditText) findViewById(R.id.monthText)).getText().toString());
             year = Integer.parseInt(((EditText) findViewById(R.id.yearText)).getText().toString());
             validateDate(date, month, year);
-        } catch (Exception e) {
+        }
+        catch (NumberFormatException ex){
+            toastForShortLength("Field Value Empty");
+        }
+        catch (Exception e) {
             toastForShortLength("Exception");
         }
         addInputValueToList(date, month, year);
